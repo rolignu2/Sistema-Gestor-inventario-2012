@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delatorre", "Delatorre\Delatorre.csproj", "{2CB004D8-15BD-4616-AEFD-E4073E141E74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{7B56363E-608E-443C-B184-6DE4EF2701A5}"
+	ProjectSection(SolutionItems) = preProject
+		Delatorre.vsd = Delatorre.vsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB004D8-15BD-4616-AEFD-E4073E141E74}.Debug|x86.ActiveCfg = Debug|x86
+		{2CB004D8-15BD-4616-AEFD-E4073E141E74}.Debug|x86.Build.0 = Debug|x86
+		{2CB004D8-15BD-4616-AEFD-E4073E141E74}.Release|x86.ActiveCfg = Release|x86
+		{2CB004D8-15BD-4616-AEFD-E4073E141E74}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

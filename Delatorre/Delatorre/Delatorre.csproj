@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CB004D8-15BD-4616-AEFD-E4073E141E74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Delatorre</RootNamespace>
+    <AssemblyName>Delatorre</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>15BE036B6C68B53CB05B7DE33ECD4F80DFA8C13F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=5.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=1.5.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcercaDebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercaDebox.Designer.cs">
+      <DependentUpon>AcercaDebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProdNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProdNuevo.Designer.cs">
+      <DependentUpon>AddProdNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup_Form.Designer.cs">
+      <DependentUpon>Backup_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalProdNuevo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalProdNuevo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditarSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSucursal.Designer.cs">
+      <DependentUpon>EditarSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstadosProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstadosProducto.Designer.cs">
+      <DependentUpon>EstadosProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factura.Designer.cs">
+      <DependentUpon>factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAntesDeAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAntesDeAgregar.Designer.cs">
+      <DependentUpon>FrmAntesDeAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditar.Designer.cs">
+      <DependentUpon>FrmEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmeditarempleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmeditarempleados.Designer.cs">
+      <DependentUpon>frmeditarempleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarProveedor.Designer.cs">
+      <DependentUpon>FrmEditarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarUsuario.Designer.cs">
+      <DependentUpon>frmEditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerEmpleado.Designer.cs">
+      <DependentUpon>FrmVerEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerFacturasCreadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerFacturasCreadas.Designer.cs">
+      <DependentUpon>FrmVerFacturasCreadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerProveedor.Designer.cs">
+      <DependentUpon>FrmVerProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hacerventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hacerventa.Designer.cs">
+      <DependentUpon>hacerventa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Actividades.cs" />
+    <Compile Include="Modulos\Backup.cs" />
+    <Compile Include="Modulos\CaptchaImage.cs" />
+    <Compile Include="Modulos\CarritoDeCompra.cs" />
+    <Compile Include="Modulos\Clientes.cs" />
+    <Compile Include="Modulos\Conexion.cs" />
+    <Compile Include="Modulos\Datos.cs" />
+    <Compile Include="Modulos\Encriptador.cs" />
+    <Compile Include="Modulos\Errores.cs" />
+    <Compile Include="Modulos\Expresiones.cs" />
+    <Compile Include="Modulos\Factura.cs" />
+    <Compile Include="Modulos\Herramientas.cs" />
+    <Compile Include="Modulos\Imprimir.cs" />
+    <Compile Include="Modulos\MotorBusqueda.cs" />
+    <Compile Include="Modulos\Notificaciones.cs" />
+    <Compile Include="Modulos\ReporteProdNuevo.cs" />
+    <Compile Include="Modulos\Seguridad.cs" />
+    <Compile Include="Modulos\Sugestion.cs" />
+    <Compile Include="Modulos\Vinculos.cs" />
+    <Compile Include="Modulos\Vistafactura.cs" />
+    <Compile Include="MostrarNotificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarNotificaciones.Designer.cs">
+      <DependentUpon>MostrarNotificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionesAvanzadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionesAvanzadas.Designer.cs">
+      <DependentUpon>OpcionesAvanzadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permisos.Designer.cs">
+      <DependentUpon>Permisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegAcount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegAcount.Designer.cs">
+      <DependentUpon>RegAcount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarEmpleado.Designer.cs">
+      <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarProveedor.Designer.cs">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarSucursal.Designer.cs">
+      <DependentUpon>RegistrarSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepFactura.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepFactura.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubPrincipal.Designer.cs">
+      <DependentUpon>SubPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosConectados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosConectados.Designer.cs">
+      <DependentUpon>UsuariosConectados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcercaDebox.resx">
+      <DependentUpon>AcercaDebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProdNuevo.resx">
+      <DependentUpon>AddProdNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup_Form.resx">
+      <DependentUpon>Backup_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalProdNuevo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalProdNuevo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSucursal.resx">
+      <DependentUpon>EditarSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstadosProducto.resx">
+      <DependentUpon>EstadosProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factura.resx">
+      <DependentUpon>factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAntesDeAgregar.resx">
+      <DependentUpon>FrmAntesDeAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditar.resx">
+      <DependentUpon>FrmEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmeditarempleados.resx">
+      <DependentUpon>frmeditarempleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarProveedor.resx">
+      <DependentUpon>FrmEditarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarUsuario.resx">
+      <DependentUpon>frmEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerEmpleado.resx">
+      <DependentUpon>FrmVerEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerFacturasCreadas.resx">
+      <DependentUpon>FrmVerFacturasCreadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerProveedor.resx">
+      <DependentUpon>FrmVerProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hacerventa.resx">
+      <DependentUpon>hacerventa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarNotificaciones.resx">
+      <DependentUpon>MostrarNotificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionesAvanzadas.resx">
+      <DependentUpon>OpcionesAvanzadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permisos.resx">
+      <DependentUpon>Permisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegAcount.resx">
+      <DependentUpon>RegAcount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarEmpleado.resx">
+      <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarProveedor.resx">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarSucursal.resx">
+      <DependentUpon>RegistrarSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepFactura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepFactura.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubPrincipal.resx">
+      <DependentUpon>SubPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosConectados.resx">
+      <DependentUpon>UsuariosConectados.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_olive_blue_black.png" />
+    <None Include="Resources\zoom_icon&amp;161.png" />
+    <None Include="Resources\sobre.jpg" />
+    <None Include="Resources\shopping_bag_icon&amp;16.png" />
+    <None Include="Resources\wrench_plus_icon&amp;16.png" />
+    <None Include="Resources\zoom_icon&amp;16.png" />
+    <None Include="Resources\shop_cart_icon&amp;16.png" />
+    <None Include="Resources\url.gif" />
+    <None Include="Resources\shop_cart_icon&amp;32.png" />
+    <None Include="Resources\spechbubble_icon&amp;24.png" />
+    <None Include="Resources\print_icon&amp;24.png" />
+    <None Include="Resources\disconnected_icon&amp;24.png" />
+    <None Include="Resources\eye_icon&amp;24.png" />
+    <None Include="Resources\checkbox_checked_icon&amp;24.png" />
+    <None Include="Resources\hand_contra_icon&amp;24.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\connect_icon&amp;32.png" />
+    <None Include="Resources\not_connected_icon&amp;32.png" />
+    <Content Include="icono.ico" />
+    <None Include="Resources\carro_de_compra.gif" />
+    <None Include="Resources\save_icon&amp;16.png" />
+    <None Include="Resources\checkbox_checked_icon&amp;16.png" />
+    <None Include="Resources\cancel_icon&amp;16.png" />
+    <None Include="Resources\folder_plus_icon&amp;16.png" />
+    <None Include="Resources\pencil_icon&amp;16.png" />
+    <None Include="Resources\doc_export_icon&amp;16.png" />
+    <None Include="Resources\print_icon&amp;16.png" />
+    <None Include="Resources\connect_icon&amp;16.png" />
+    <None Include="Resources\disconnected_icon&amp;16.png" />
+    <None Include="Resources\info_icon&amp;16.png" />
+    <None Include="Resources\info_icon&amp;24.png" />
+    <None Include="Resources\checkmark_icon&amp;16.png" />
+    <None Include="Resources\refresh_icon&amp;16.png" />
+    <None Include="Resources\info_icon&amp;161.png" />
+    <None Include="Resources\message_attention_icon&amp;16.png" />
+    <None Include="Resources\doc_export_icon&amp;161.png" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\icon_Admin_black.gif" />
+    <None Include="Resources\logos_wildsofvert.gif" />
+    <None Include="Resources\admin_sesion.gif" />
+    <None Include="Resources\admin_sesion.png" />
+    <None Include="Resources\help.jpg" />
+    <None Include="Resources\help1.jpg" />
+    <None Include="Resources\LogoFinal.gif" />
+    <Content Include="Resources\sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCrystalActiveXReportViewerLib13">
+      <Guid>{B816E96D-D151-4000-BADB-53A2D8F3FC65}</Guid>
+      <VersionMajor>13</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="CrystalActiveXReportViewerLib13">
+      <Guid>{B816E96D-D151-4000-BADB-53A2D8F3FC65}</Guid>
+      <VersionMajor>13</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

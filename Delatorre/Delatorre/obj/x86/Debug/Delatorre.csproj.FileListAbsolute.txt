@@ -1,0 +1,106 @@
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\bin\Debug\Delatorre.exe
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\bin\Debug\Delatorre.pdb
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Form1.resources
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Properties.Resources.resources
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csproj.GenerateResource.Cache
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.exe
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.pdb
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.SubPrincipal.resources
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Principal.resources
+c:\users\rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Login.resources
+C:\Users\Rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csprojResolveAssemblyReference.cache
+C:\Users\Rolando\documents\visual studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.AddProdNuevo.resources
+C:\Users\Rolando\Documents\Visual Studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmAntesDeAgregar.resources
+C:\Users\Rolando\Documents\Visual Studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Permisos.resources
+C:\Users\Rolando\Documents\Visual Studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarEmpleado.resources
+C:\Users\Rolando\Documents\Visual Studio 2010\Projects\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Registro.resources
+F:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.exe
+F:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.exe.config
+F:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.pdb
+F:\Delatorre\Delatorre\Delatorre\bin\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+F:\Delatorre\Delatorre\Delatorre\bin\Debug\AxInterop.CrystalActiveXReportViewerLib13.dll
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\AxInterop.CrystalActiveXReportViewerLib13.dll
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csproj.ResolveComReference.cache
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.AddProdNuevo.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.EditarSucursal.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.EstadosProducto.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.factura.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Form1.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmAntesDeAgregar.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmEditar.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.frmeditarempleados.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmEditarProveedor.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerProveedor.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.hacerventa.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Login.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.MostrarNotificaciones.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.OpcionesAvanzadas.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Permisos.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Principal.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Properties.Resources.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegAcount.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarEmpleado.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarProveedor.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarSucursal.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Registro.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Reportes.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.SubPrincipal.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.UsuariosConectados.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.exe
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.pdb
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerEmpleado.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.AcercaDebox.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Backup_Form.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerFacturasCreadas.resources
+F:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.frmEditarUsuario.resources
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.exe.config
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.exe.manifest
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.application
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.exe
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Delatorre.pdb
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csprojResolveAssemblyReference.cache
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csproj.ResolveComReference.cache
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.AcercaDebox.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.AddProdNuevo.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Backup_Form.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.EditarSucursal.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.EstadosProducto.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.factura.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Form1.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmAntesDeAgregar.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmEditar.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.frmeditarempleados.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmEditarProveedor.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.frmEditarUsuario.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerEmpleado.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerFacturasCreadas.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.FrmVerProveedor.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.hacerventa.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Login.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.MostrarNotificaciones.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.OpcionesAvanzadas.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Permisos.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Principal.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Properties.Resources.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegAcount.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarEmpleado.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarProveedor.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.RegistrarSucursal.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Registro.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.Reportes.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.SubPrincipal.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.UsuariosConectados.resources
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.csproj.GenerateResource.Cache
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.TrustInfo.xml
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.exe.manifest
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.application
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.exe
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Delatorre.pdb
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+H:\Delatorre\Delatorre\Delatorre\obj\x86\Debug\AxInterop.CrystalActiveXReportViewerLib13.dll
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+H:\Delatorre\Delatorre\Delatorre\bin\Debug\AxInterop.CrystalActiveXReportViewerLib13.dll

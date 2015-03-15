@@ -1,0 +1,39 @@
+
+======================================================
+             Wildsoft inc Sistema delatorre
+           Windows XP/Vista/7/8
+                 Wildsoft 2013
+======================================================
+
+
+<>Archivos que contiene 
+   
+  -Leeme.txt
+  -DelatorreSetup.exe
+
+
+<>Nota sobre el paquete
+
+  Estas son las principales características del paquete: 
+
+  -Es compatible con todas las versiones de Windows.
+  -La instalación es considerablemente limpia y rápida.
+  -Se desinstala adecuadamente. Los instaladores originales
+   dejan varios archivos y claves del registro sin eliminar.
+  -Sólo se copian en las carpetas del sistema los archivos
+
+<>Requisitos hardware y software
+
+  -Windows XP/Vista/7/8 correctamente instalado.
+  -Las últimas librerías DirectX correctamente instaladas. Es
+   imprescindible que el sistema pase el test 'DXDIAG.EXE' en
+   los apartados de 'Pantalla' y 'Sonido'.
+  -Los controladores de la tarjeta gráfica correctamente
+   instalados. Es recomendable usar una paleta de colores
+   de 24 o 32 bits.
+  -Una CPU medianamente potente. Como mínimo un DUAL CORE a 1.7 GHz,
+   aunque casi todo funcionará con procesadores inferiores. Es
+   recomendable que la CPU tenga soporte MMX, SSE y/o 3DNow.
+  -Al menos 1gb de RAM.
+  -Una tarjeta gráfica con un mínimo de 64 Mbytes de RAM.
+  -Poco más de 30 MBytes de espacio en disco.
